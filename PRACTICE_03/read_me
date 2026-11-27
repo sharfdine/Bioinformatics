@@ -1,0 +1,7 @@
+in this session, i used a prostate cancer dataset of GEO11177 and used it 
+the deseqdataset is the pipeline which actually follows the size fitting, size dispersion, and fitting of the negative binomial generalized linear models 
+once it has been done then the step proceeds to deseqstats which performs the statitical analysis to allow the calculation of log2 fold chaneg which actually tells us about the upregulation (if greater then 1) and downregulation (if lesse than -1) 
+then it also calculates the p value and adjusted p value to help us find the statistical significance 
+the next step is the incorporation of mygene where we get the gene symbols for those numbers which were used in place of symbols 
+after that there is the defining of significant genes, non significant genes, upregulated genes and downregulated genes                                                                                                                                                                                                                                       
+finally there is the creation of a volcano plot presenting everything visually and the saving of signiicant genes file                                                                                                                                                                                                                                      
